@@ -1,0 +1,38 @@
+.wrapper {
+
+  //font-size: 1em;
+  //width: 50vmin;
+  //height: 90vmin;
+  color: #ffffff;
+  background-color: var(--brand1-color, green);
+  font-family: var(--main-font);
+  margin-left: 0;
+  margin-right: 0;
+  //margin-top: -1em;
+  //margin-bottom: -1em;
+  //overflow: auto;
+
+}
+
+.one {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  //margin-left: -1em;
+  //margin-right: -1em;
+  //margin-bottom: -1em;
+
+}
+.two {
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  //margin-right: -1em;
+  //margin-top: -1em;
+}
+
+.three {
+  clear: both;
+}

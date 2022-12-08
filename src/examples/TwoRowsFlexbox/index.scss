@@ -1,0 +1,80 @@
+.body-box {
+  height: 100vh;
+  background-color: #faf;
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+
+}
+
+header {
+  color: #fff;
+  background-color: #0072b0;
+  //border-top: 0.1px solid #0072b0;
+}
+
+//h1, h2 {
+//  padding-top: .5em;
+//  padding-bottom: .5em;
+//  margin-top: 1.5em;
+//  margin-bottom: 1.5em;
+//}
+
+main {
+  display: block;
+
+}
+
+.container {
+  display: flex;
+}
+
+
+.main {
+  width: 70%;
+  background-color: #fff;
+  border-radius: .5em;
+  //box-sizing: border-box;
+}
+
+.sidebar {
+  /*
+  em单位的一致性更好
+  这种方式不仅能够使用em指定间距，
+  而且能让代码意图更明显。
+  之后再看代码，可能看不出为什么使用29%，
+  但是代码30% -1.5em则能提供线索，
+  知道它是基于30%算出来的。
+  width :29%;
+  margin-left: 1%;
+  */
+  width: 30%;
+  margin-left: 1.5em;
+  margin-top: 0;
+  padding: 1.5em;
+  background-color: #fff;
+  border-radius: .5em;
+  //box-sizing: border-box;
+}
+
+.widget {
+  height: 200px;
+  width: 100px;
+  background-color: #abd;
+}
+
+.button-link {
+  display: block;
+  padding: .5em;
+  color: #fff;
+  background-color: #0090c9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.operation-link {
+  display: block;
+  color: #0072b0;
+  font-weight: bold;
+  text-decoration: none;
+}

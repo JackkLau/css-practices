@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /*font-size: calc(0.5em + 1vw);*/
+  --main-font: Helvetica, Arial, sans-serif;
+  --brand-color: #365;
+  --main-bg: #fff;
+  --main-color: #000;
+  background-color: #eee;
+
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*,
+:before,
+:after {
+  /*盒模型通常不会被继承，但是使用inherit关键字可以强制继承。*/
+  box-sizing: inherit;
+  /*padding: 0;*/
+  /*margin: 0;*/
 }
+
+/* 使用相邻的兄弟组合器（+）
+选中同一个父元素下紧跟在其他button-link后面的button-link元素
+*/
+/* 用以解决上下两个元素存在外边距时，样式设置重复的问题*/
+ body * + * {
+   margin-top: 1.5em;
+ }

@@ -1,0 +1,19 @@
+.square {
+  font-size: 1em;
+  width: 90vmin;
+  height: 100vh;
+  color: #ffffff;
+  background-color: var(--brand1-color, green);
+  font-family: var(--main-font);
+}
+
+.inner {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: #248;
+}
+
+.right {
+  float: right;
+}

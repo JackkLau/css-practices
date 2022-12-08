@@ -1,24 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import LineHeight from './examples/LineHeight'
+// import DynamicCSSVar from './examples/DynamicCSSVar'
+// import UseJSChangeCSSVar from './examples/UseJSChangeCSSVar'
+import WidthProblem from './examples/WidthProblem'
+import TwoRowsTable from './examples/TwoRowsTable'
+import TwoRowsFlexbox from './examples/TwoRowsFlexbox'
+import TwoRowsVertical from './examples/TwoRowsVertical'
+import NegativeMargin from './examples/NegativeMargin'
+import FloatLayout from './examples/FloatLayout'
+import FloatLayout1 from './examples/FloatLayout1'
+import FloatLayoutByGrid from './examples/FloatLayoutByGrid'
+import FlexLayout from './examples/FlexLayout'
+import GridLayout from './examples/GridLayout'
+import GridLayoutExample from './examples/GridLayoutExample'
+import PositionLayout from './examples/PositionLayout'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<LineHeight/>*/}
+      {/*<DynamicCSSVar/>*/}
+      {/*<UseJSChangeCSSVar/>*/}
+      {/*<WidthProblem/>*/}
+      {/*<TwoRowsTable/>*/}
+      {/*<TwoRowsFlexbox/>*/}
+      {/*<TwoRowsVertical/>*/}
+      {/*<NegativeMargin/>*/}
+      {/*<FloatLayout/>*/}
+      {/*<FloatLayout1/>*/}
+      {/*<FloatLayoutByGrid/>*/}
+      {/*<FlexLayout/>*/}
+      {/*<GridLayout/>*/}
+      {/*<GridLayoutExample/>*/}
+      <PositionLayout/>
     </div>
   );
 }
