@@ -15,6 +15,8 @@ import FlexLayout from './examples/FlexLayout'
 import GridLayout from './examples/GridLayout'
 import GridLayoutExample from './examples/GridLayoutExample'
 import PositionLayout from './examples/PositionLayout'
+import SwiperDemo from './examples/SwiperDemo'
+import PracticeSwiper from './examples/PracticeSwiper'
 
 function App() {
   return (
@@ -33,7 +35,8 @@ function App() {
       {/*<FlexLayout/>*/}
       {/*<GridLayout/>*/}
       {/*<GridLayoutExample/>*/}
-      <PositionLayout/>
+      {/*<SwiperDemo/>*/}
+      <PracticeSwiper/>
     </div>
   );
 }
