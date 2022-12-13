@@ -9,13 +9,25 @@ export default function Index() {
     onSwipeStart: (eventData => {
       console.log('eventData: >>', eventData)
       if (eventData.dir === "Right") {
-        setCurrent(pre =>
-          pre > 4 ? 0 : pre + 1
-        )
+        if (current < 5) {
+          setCurrent(pre =>
+            pre > 4 ? 0 : pre + 1
+          )
+        }
+
       } else if (eventData.dir === 'Left') {
         setCurrent(pre => pre === 0 ? 4 : pre - 1)
       }
-    })
+    }),
+    onSwipedLeft: () => {
+      setCurrent(pre => pre === 0 ? 4 : pre - 1)
+
+    },
+    onSwipedRight: () => {
+      setCurrent(pre =>
+        pre > 4 ? 0 : pre + 1
+      )
+    }
   })
 
   function processImg() {
